@@ -6,12 +6,16 @@ import PintarDatos from "./components/PintarDatos";
 const App = () => {
   const [nombrePersonaje, setNombrePersonaje] = useState("");
 
-  // useEffect(() => {
-  //   if (localStorage.getItem("nombreApi")) {
-  //     setNombrePersonaje(JSON.parse(localStorage.getItem("nombreApi")));
-  //   }
-  //   localStorage.setItem("nombreApi", JSON.stringify(nombrePersonaje));
-  // }, [nombrePersonaje]);
+  useEffect(() => {
+    if (localStorage.getItem("nombreApi")) {
+      setNombrePersonaje(JSON.parse(localStorage.getItem("nombreApi")));
+    }
+    // localStorage.setItem("nombreApi", JSON.stringify(nombrePersonaje));
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem("nombreApi", JSON.stringify(nombrePersonaje));
+  }, [nombrePersonaje]);
 
   return (
     <div className="container">

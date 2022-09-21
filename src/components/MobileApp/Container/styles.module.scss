@@ -1,0 +1,9 @@
+.Layout {
+  @apply h-screen w-full max-w-full;
+  @apply box-border;
+}
+
+.MainContent {
+  @apply flex flex-col items-end justify-center;
+  @apply absolute;
+}

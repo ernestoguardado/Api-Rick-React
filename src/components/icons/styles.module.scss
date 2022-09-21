@@ -1,0 +1,7 @@
+.Icon {
+  &__FeatureIcon {
+    @apply rounded-full border-8 border-primary-50 bg-primary-100 text-primary-500;
+    @apply h-[56px] w-[56px] p-2;
+    @apply flex items-center justify-center;
+  }
+}

@@ -1,0 +1,7 @@
+.StatusContainer {
+  @apply flex flex-col items-center justify-center;
+  @apply h-60 w-10;
+  @apply absolute gap-1;
+  @apply top-2/4 right-4;
+  @apply text-white font-normal text-base not-italic leading-5;
+}

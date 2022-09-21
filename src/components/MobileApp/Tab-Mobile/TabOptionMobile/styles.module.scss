@@ -1,0 +1,43 @@
+.TabActive {
+  @apply justify-center;
+
+  @apply gap-1 px-4;
+  @apply w-14;
+  @apply font-medium;
+  @apply text-xs not-italic;
+  @apply text-white;
+  @apply flex flex-col;
+  @apply items-center;
+  @apply justify-center;
+  @apply flex-1;
+  @apply cursor-pointer;
+}
+
+.Tab {
+  @apply justify-center;
+
+  @apply gap-1 px-4;
+  @apply w-14;
+  @apply hover:text-gray-200;
+  @apply font-medium;
+  @apply text-xs not-italic;
+  @apply text-gray-200;
+  @apply flex flex-col;
+  @apply items-center;
+  @apply justify-center;
+  @apply flex-1;
+  @apply cursor-pointer;
+}
+
+.IconName {
+  @apply h-6 w-6;
+  @apply mr-1;
+  @apply stroke-gray-200;
+}
+
+.IconNameActive {
+  @apply h-6 w-6;
+  @apply mr-1;
+  @apply fill-white;
+  @apply stroke-white;
+}

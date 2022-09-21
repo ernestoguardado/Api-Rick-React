@@ -1,0 +1,16 @@
+.ItemsContainer {
+  @apply flex flex-row items-center justify-center;
+  @apply text-gray-300 not-italic text-base font-bold; 
+  @apply absolute;
+  @apply top-14 left-32;
+  @apply w-44 gap-16;
+
+  &__ItemFollow {
+    @apply hover:border-white hover:text-white;
+    @apply border-b border-transparent;
+  }
+  &__ItemForYou {
+    @apply hover:border-white hover:text-white;
+    @apply border-b border-transparent;
+  }
+}

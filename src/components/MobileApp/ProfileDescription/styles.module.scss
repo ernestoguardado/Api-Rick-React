@@ -1,0 +1,18 @@
+.Description {
+  @apply flex flex-col items-start justify-start;
+  @apply h-14 w-96;
+  @apply absolute;
+  @apply inset-y-24 top-auto left-4;
+
+  &__Name {
+    @apply flex flex-row items-center;
+    @apply text-white text-lg leading-9 font-bold not-italic;
+    @apply gap-2;
+  }
+
+  &__Indications {
+    @apply text-white not-italic text-base font-normal;
+    
+  }
+}
+
